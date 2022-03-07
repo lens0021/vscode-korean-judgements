@@ -1,0 +1,14 @@
+{
+  "name": "VSCode Korean Judgements",
+  "description": "Integrate VScode with Korean Judgements",
+  "version": "0.1.0",
+  "author": "Lens0021 <lorentz0021@gmail.com>",
+  "content_scripts": [
+    {
+      "matches": ["*://www.acmicpc.net/problem/*"],
+      "js": ["dist/problem.js"]
+    }
+  ],
+  "host_permissions": ["*://www.acmicpc.net/*"],
+  "manifest_version": 3
+}
