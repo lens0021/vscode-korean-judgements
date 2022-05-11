@@ -1,2 +1,3 @@
 # vscode-korean-judgements
-(WIP)
+
+Please consider using https://github.com/agrawal-d/cph instead.
